@@ -27,9 +27,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-commentary'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'w0rp/ale'
+Plug 'morhetz/gruvbox'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 call plug#end()
 
 " Emmet setup
@@ -45,8 +45,7 @@ autocmd FileType html,css EmmetInstall
 inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 " Color theme setup
-colorscheme catppuccin-latte 
-let g:airline_theme='catppuccin'
+colorscheme gruvbox
 
 " Airline fonts
 let g:airline_powerline_fonts = 1
