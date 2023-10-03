@@ -1,3 +1,2 @@
 ## About
-* vimrc contains list of plugins used by CoC
-* coc-json file has some configurations needed for better usage.
+My vim setup to edit files on terminal with some simple enhancements.
