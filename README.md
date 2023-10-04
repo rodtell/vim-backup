@@ -1,2 +1,3 @@
 ## About
-My vim setup to edit files on terminal with some simple enhancements.
+* vimrc file contains list of CoC plugins installed.
+* coc-json is my setup for some plugins.
