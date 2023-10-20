@@ -29,7 +29,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'w0rp/ale'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 " Emmet setup
@@ -45,11 +45,7 @@ autocmd FileType html,css EmmetInstall
 inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 " Color theme setup
-colorscheme catppuccin-latte 
-let g:airline_theme='catppuccin'
-
-" Airline fonts
-let g:airline_powerline_fonts = 1
+colorscheme gruvbox
 
 " Coc Plugins
 " coc-json
