@@ -16,7 +16,7 @@ set ruler
 set undolevels=1000	
 set backspace=indent,eol,start
 
-Vim-plug plugin manager & plugins
+" Vim-plug plugin manager & plugins
 call plug#begin()
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
